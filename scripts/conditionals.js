@@ -1,4 +1,4 @@
-const select = document.querySelector('select');
+ const select = document.querySelector('select');
 const para = document.querySelector('p');
 
 select.addEventListener('change', setWeather);
@@ -6,7 +6,7 @@ select.addEventListener('change', setWeather);
 function setWeather() {
   const choice = select.value;
 
-  if (choice === 'sunny') {
+/*   if (choice === 'sunny') {
     para.textContent = 'It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.';
   } else if (choice === 'rainy') {
     para.textContent = 'Rain is falling outside; take a rain coat and an umbrella, and don\'t stay out for too long.';
@@ -17,5 +17,31 @@ function setWeather() {
   } else {
     para.textContent = '';
   }
-}
+*/
 
+"Nesting if ... else"
+ let temperature = 90;
+/*  if (choice === 'sunny') {
+    if (temperature < 86) {
+      para.textContent = 'It is ' + temperature + ' degrees outside — nice and sunny. Let\'s go out to the beach, or the park, and get an ice cream.';
+    } else if (temperature >= 86) {
+      para.textContent = 'It is ' + temperature + ' degrees outside — REALLY HOT! If you want to go outside, make sure to put some sunscreen on.';
+    }
+  }
+ */
+
+"Logical operators: AND, OR and NOT"
+
+/*   if (choice === 'sunny' && temperature <86) {
+    para.textContent = 'It is ' + temperature + 'degrees outside.'; 
+  } else if (choice === 'sunny' && temperature >= 86) {
+    para.textContent = 'It is ' + temperature + ' degrees outside - Realy hot!'
+  }
+} *
+
+"another test"
+if (iceCreamVanOutside || houseStatus === 'on fire') {
+  console.log('You should leave the house quickly.');
+} else {
+  console.log('Probably should just stay in then.');
+}
