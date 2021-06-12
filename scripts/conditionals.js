@@ -34,5 +34,5 @@ function update(bgColor, textColor) {
 }
 
 select.onchange = function () {
-  (select.value === 'black') ? update('#333333', 'white') : update('white', '#333333');
+  (select.value === 'black') ? update('#333333', 'white') : update('lightgray', 'white');
 }
