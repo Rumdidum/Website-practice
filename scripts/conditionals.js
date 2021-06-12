@@ -32,7 +32,10 @@ function update(bgColor, textColor) {
   html.style.backgroundColor = bgColor;
   html.style.color = textColor;
 }
+// Ternary operator
 
 select.onchange = function () {
   (select.value === 'black') ? update('#333333', 'white') : update('lightgray', 'white');
 }
+
+let greeting = (isBirthday) ? 'Happy birthday Mrs. Smith — we hope you have a great day!' : 'Good morning Mrs. Smith.';
