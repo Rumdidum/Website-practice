@@ -22,13 +22,13 @@
         let x = 1;
 
         function a() {
-            // throwing an arrow because of function scope
             let y = 2;
+            output(z);
         }
 
         function b() {
-            // throwing an arrow because of function scope
             let z = 3;
+            output(y);
         }
 
         function output(value) {
