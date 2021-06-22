@@ -60,7 +60,7 @@ switch (day) {
 } */
 
 
-const grade = 87;
+/* const grade = 87;
 
 switch (true) {
   // If score is 90 or greater
@@ -82,4 +82,10 @@ switch (true) {
   // Anything 59 or below is failing
   default:
     console.log("F");
+} */
+
+const myButton = document.querySelector('button');
+
+myButton.onclick = function () {
+  alert('hello');
 }
