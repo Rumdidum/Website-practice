@@ -2,10 +2,10 @@ function favoriteAnimal(animal) {
     console.log(animal + " is my favorite animal!")
 }
 favoriteAnimal("Goat")
-favoriteAnimal("Tiger")
 
-function showMessage() {
-    console.log('Hello everyone!');
+
+function showMessage(from, text = "no text given") {
+    console.log(from + ": " + text);
 }
-showMessage()
 
+showMessage("Ann"); // Ann: no text given
