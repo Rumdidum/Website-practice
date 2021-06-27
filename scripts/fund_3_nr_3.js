@@ -4,9 +4,10 @@ function favoriteAnimal(animal) {
 favoriteAnimal("Goat")
 
 
-function showMessage(from, text="default text") {
-    console.log(from + ": " + text);
+// program to display text 10 times
+const n = 10;
+
+// looping from i = 1 to 5
+for (let i = 1; i <= n; i++) {
+    console.log(`${i} I love JavaScript.`);
 }
-showMessage("Ann"); // Ann: default text
-showMessage(from = "tobi", text = "goes Hello") //tobi: goes Hello
-// Everything like in Python 3
