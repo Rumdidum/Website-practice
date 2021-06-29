@@ -12,7 +12,7 @@ for (let i = 1; i <= n; i++) {
     console.log(`${i} I love JavaScript.`);
 } */
 
- function min_if(a, b) {
+/*  function min_if(a, b) {
     if (a < b) {
         return a
     } else if (b < a) {
@@ -22,14 +22,42 @@ for (let i = 1; i <= n; i++) {
 
 console.log(min_if(1, 2))
  
-function min(a, b) {
+function min_mark(a, b) {
     return (a < b) ? a : b;
 }
 
-console.log(min(1, -3))
+console.log(min_mark(1, -3))
+ */
 
-function min_or(a, b) {
-    return (a < b) || (b < a);
+// let sum = (a, b) => a + b;
+
+/* This arrow function is a shorter form of:
+
+let sum = function(a, b) {
+  return a + b;
+};
+*/
+
+/* console.log(sum(1, 2)); // 3
+
+
+function add7(number) {
+    return number +7
 }
 
-console.log(min_or(1, -3))
+console.log(add7(7))
+ */
+
+
+let sum = (a, b) => a + b
+
+console.log(sum(2, 4))
+
+function multiply(num1, num2) {
+    return num1 * num2
+}
+console.log(multiply(5, 10))
+
+let multiply_arrow = (num1, num2) => num1 * num2
+
+console.log(multiply_arrow(43, 10))
