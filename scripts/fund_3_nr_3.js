@@ -38,20 +38,20 @@ let sum = function(a, b) {
 };
 */
 
-/* console.log(sum(1, 2)); // 3
+// console.log(sum(1, 2)); // 3
 
 
-function add7(number) {
+/* function add7(number) {
     return number +7
 }
 
 console.log(add7(7))
- */
+
 
 
 let sum = (a, b) => a + b
 
-console.log(sum(2, 4))
+console.log(sum(2, 4)) */
 
 // Write a function called multiply that takes 2 numbers and returns their product.
 
@@ -65,15 +65,16 @@ let multiply_arrow = (num1, num2) => num1 * num2
 console.log(multiply_arrow(43, 10)) */
 
 /*3. Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.returns that string */
-
-function a() {
-    let y = 2;
-    output(y);
+/* function capitalized(string) {
+    let firstLetter = string.slice(0, 1)
+    return firstLetter
 }
+console.log(capitalized("fest".toUpperCase())) */
 
-function b() {
-    let z = 3;
-    output(z);
-}
 
-output(z)
+/* Write a function called lastLetter that takes a string and 
+returns the very last letter of that string:
+
+    a).lastLetter("abcd") should return "d" */
+
+function
