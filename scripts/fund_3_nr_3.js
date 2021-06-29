@@ -53,11 +53,27 @@ let sum = (a, b) => a + b
 
 console.log(sum(2, 4))
 
-function multiply(num1, num2) {
+// Write a function called multiply that takes 2 numbers and returns their product.
+
+/* function multiply(num1, num2) {
     return num1 * num2
 }
 console.log(multiply(5, 10))
 
 let multiply_arrow = (num1, num2) => num1 * num2
 
-console.log(multiply_arrow(43, 10))
+console.log(multiply_arrow(43, 10)) */
+
+/*3. Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.returns that string */
+
+function a() {
+    let y = 2;
+    output(y);
+}
+
+function b() {
+    let z = 3;
+    output(z);
+}
+
+output(z)

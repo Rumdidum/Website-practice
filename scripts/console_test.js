@@ -25,5 +25,3 @@ switch (true) {
     default:
         console.log("F");
 }
-
-if 
