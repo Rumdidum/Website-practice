@@ -78,8 +78,8 @@ returns the very last letter of that string:
     a).lastLetter("abcd") should return "d" */
 
 function lastLetter(string) {
-    return string[string.length -1]
+    return string[string.length - 1]
 }
 
-console.log(lastLetter("tesö"))
+console.log(lastLetter("tygjds"))
 
