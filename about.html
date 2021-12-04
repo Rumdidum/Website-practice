@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts/scriptDOM.js" defer></script>
 </head>
 <body>
     <ul>
@@ -16,29 +17,7 @@
     </ul>
       <!-- Code from Mozilla -->
     <h1>Hello, World!</h1>
-    <p>Scope test</p>
-    <button>test</button>
-    <script>
-        let x = 1;
+    <div id="container"></div>
 
-        function a() {
-            let y = 2;
-            output(z);
-        }
-
-        function b() {
-            let z = 3;
-            output(y);
-        }
-
-        function output(value) {
-            // declaring variable for a paragraph handle
-            const para = document.createElement('p');
-            //
-            document.body.appendChild(para);
-            para.textContent = 'Value: ' + value;
-        }
-    </script>
-    <!-- <script src="scripts/conditionals.js"></script> -->
 </body>
 </html>
