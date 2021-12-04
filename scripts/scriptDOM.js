@@ -1,15 +1,21 @@
+// ID container
 const container = document.querySelector('#container');
-const content = document.createElement("p")
 
-content.classList.add("content")
-content.style.color = 'red'
-content.textContent = "hello my little one"
+const divContainer = document.createElement("div");
+const hContent = document.createElement("h3");
+const pContent = document.createElement("p");
 
+// <div> container
+divContainer.textContent = "hello my little one";
+divContainer.setAttribute('style', 'color: blue; background: pink');
 
-// As long as this is not defined, nothing happens
-container.appendChild(content);
+// h3
+hContent.textContent = "I'am in a div";
+divContainer.appendChild(hContent);
 
-const hContent = document.createElement("h3")
-container.appendChild(hContent);
-hContent.style.color = 'blue'
-hContent.textContent = "hello my little one"
+// <p>
+pContent.textContent = "ME TOO!";
+hContent.appendChild(pContent);
+
+//div container
+container.appendChild(divContainer);
