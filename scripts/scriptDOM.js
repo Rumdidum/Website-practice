@@ -1,21 +1,14 @@
-// ID container
-const container = document.querySelector('#container');
+/* function alertFunction() {
+    alert("YAY! YOU DID IT!");
+} */
+const btn = document.querySelector('#btn');
+/* // METHOD 2
+btn.onclick = alertFunction;
 
-const divContainer = document.createElement("div");
-const hContent = document.createElement("h3");
-const pContent = document.createElement("p");
 
-// <div> container
-divContainer.textContent = "hello my little one";
-divContainer.setAttribute('style', 'color: blue; background: pink');
+// METHOD 3
+btn.addEventListener('click', alertFunction); */
 
-// h3
-hContent.textContent = "I'am in a div";
-divContainer.appendChild(hContent);
-
-// <p>
-pContent.textContent = "ME TOO!";
-hContent.appendChild(pContent);
-
-//div container
-container.appendChild(divContainer);
+btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+});
