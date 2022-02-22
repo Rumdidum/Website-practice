@@ -8,6 +8,38 @@
     <script src="scripts/scriptDOM.js" defer></script>
     <title>Dom</title>
 </head>
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+        border: 2px solid blue;
+        height: 1000px;
+        align-items: center;
+    }
+    .grandparent {
+        background-color: red;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parent {
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .child {
+        background-color: aquamarine;
+        width: 75px;
+        height: 75px;
+    }
+
+</style>
 <body>
     <ul>
         <li><a class="font-effect-fire" href="home.html">Home</a></li>
@@ -16,12 +48,13 @@
         <li><a class="active" href="Dom.html">Dom</a></li>
         <li style="float:right"><a href="index.html">Index</a></li>
     </ul>
-    <div class="container">test1
-        <div class="item">hello</div>
+    <div class="container">
+        <div class="grandparent">
+            <div class="parent">
+                <div class="child"></div>
+            </div>
+        </div>
     </div>
-    <button id="btn">Click Me Too</button>
-    <button class="test" id="1">Click Me</button>
-    <button class="test" id="2">Click Me</button>
-    <button class="test" id="3">Click Me</button>
+    
 </body>
 </html>
